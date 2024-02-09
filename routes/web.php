@@ -14,5 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = [
+
+        'hello'  => 'Hello World!'
+
+    ];
+    return view('home', $data);
 });
+
+Route::get('/get-started', function () {
+    $data = [
+
+        'title'  => 'Get started with laravel!'
+
+    ];
+    return view('start', $data);
+})->name('download');
+
+Route::get('/whats-new', function () {
+
+    $data = [
+
+        'title'  => 'What is new in laravel?'
+
+    ];
+    return view('update', $data);
+})->name('whatsnew');

@@ -19,3 +19,6 @@ In allegato trovate la steps list con i primi comandi e passaggi per avviare il 
 > [!TIP]
 > Consigli: lavorate con la documentazione aperta
 Buon lavoro!
+
+> [!IMPORTANT]
+> Esercizio consegnato!
